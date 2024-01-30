@@ -7,8 +7,8 @@ import pymongo
 import os
 
 load_dotenv()
-TOKEN = os.getenv('BOT_TOKEN')
-bot = Bot(token=TOKEN)
+BOT_TOKEN = os.getenv('BOT_TOKEN')
+bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(bot)
 
 def get_charmap_from_db():
