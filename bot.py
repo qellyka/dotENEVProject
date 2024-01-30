@@ -1,4 +1,3 @@
-#https://t.me/gaford_bot
 import logging
 from dotenv import *
 from aiogram import executor
